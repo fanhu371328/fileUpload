@@ -1,0 +1,240 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+    font-size: 0
+}
+
+.clearfix {
+    zoom: 1
+}
+.hidden {display: none;}
+
+.section {
+	width: 1100px;
+	padding: 50px;
+	margin: 0 auto;
+	background: #f0f1f0;
+}
+.section-top .file-header {
+	line-height: 40px;
+	font-size: 14px;
+	padding-left: 20px;
+	background: #e5e5e5;
+}
+/*上传资料*/
+.upload-file {
+	text-align: center;
+	min-height: 200px;
+	background: #fff;
+	padding-top: 80px;
+	position: relative;
+}
+
+.upload-file p:nth-of-type(1),
+.upload-file input[type="file"] {
+	width: 240px;
+	height: 50px;
+	line-height: 50px;
+	margin: 0 auto;
+	font-size: 18px;
+	color: #fff;
+	margin-bottom: 30px;
+	background: #DE2418;
+}
+.upload-file p:nth-of-type(1) img {
+	width: 24px;
+	height: 24px;
+}
+.upload-file input[type="file"] {
+	position: absolute;
+	top: 80px;
+	left: 430px;
+	z-index: 99;
+	opacity: 0;
+	cursor: pointer;
+}
+.upload-file p:nth-of-type(2) {
+	font-size: 16px;
+	color: #ccc;
+}
+.upload-file p:nth-of-type(2) span {
+	color: #f3bb6c;
+}
+/*选择资料*/
+.section-top .file-content {
+	padding: 20px 30px;
+	background: #fff;
+}
+
+.section-top .file-content div {
+	height:40px;
+	line-height: 40px;
+	position: relative;
+}
+.section-top .file-content .progress-content {
+	height:50px;
+	line-height: 50px;
+}
+.progress-content progress {
+	width: 300px;
+}
+.progress-content .size {
+	margin-left: 50px;
+}
+.section-top .file-content div input[type="file"] {
+	width: 100px;
+	height: 35px;
+	position: absolute;
+	top: 10px;
+	right: 0;
+	z-index: 0;
+	opacity: 0;
+	cursor: pointer;
+}
+.section-top .file-content div p:nth-of-type(1) {
+	float: left;
+}
+.section-top .file-content div p:nth-of-type(2) {
+	float: right;
+	width: 100px;
+	height: 35px;
+	line-height: 35px;
+	text-align: center;
+	background: #DE2418;
+	margin-top: 10px;
+	font-size: 14px;
+	color: #fff;
+}
+.section-top .file-content div p:nth-of-type(2) img {
+	width:16px;
+	height: 16px;
+	margin-right: 5px;
+}
+
+
+.file-content>P {
+	font-size: 15px;
+	margin-bottom: 10px;
+	color: #666;
+}
+.file-content li {
+	line-height: 50px;
+	padding: 0 10px 0 5px;
+	border-bottom: 1px solid #ccc;
+}
+.file-content li .type-icon {
+	width: 30px;
+	height: 30px;
+}
+.file-content li .close-icon {
+	width: 15px;
+	height: 15px;
+	margin: 0;
+	padding: 17px;
+	transition: all 1s;
+}
+.file-content li .close-icon1 {
+	transform:rotate(360deg);
+	-ms-transform:rotate(360deg); /* IE 9 */
+	-moz-transform:rotate(360deg); /* Firefox */
+	-webkit-transform:rotate(360deg); /* Safari and Chrome */
+}
+.file-list li span {
+	font-size: 14px;
+	color: #666;
+}
+.file-list li p span:nth-of-type(1) {
+	margin-left: 10px;
+	display: inline-block;
+	width: 400px;
+}
+.file-content li>p {
+	width: 450px;
+	float: left;
+}
+.progress-content {
+	float: left;
+}
+.file-content li>span {
+	float: left;
+}
+.file-content li>img {
+	float: right;
+	margin-top: 10px;
+}
+.file-content div p:nth-of-type(1) {
+	margin-left: 5px;
+}
+.file-content div span,.file-content div p {
+	font-size: 14px;
+	color: #DE2418;
+}
+
+
+/*添加的文件input*/
+
+
+
+
+/*添加的input结束*/
+
+
+#submit {
+	display: block;
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	color: #fff;
+	background: #DE2418;
+	border: none;
+	margin: 30px auto 0;
+	box-shadow: -10px 10px 20px rgba(0,0,0,.1);
+	cursor: pointer;
+}
+
+/*上传资料提示信息*/
+.section-bottom {
+	margin-top: 10px;
+	background: #f1e7d9;
+	border: 1px solid #f3bb6c;
+	padding: 0 20px;
+}
+.section-bottom .tips-file {
+	font-size: 14px;
+	margin: 10px 0;
+}
+.section-bottom .tips-file img {
+	width: 16px;
+	height: 16px;
+	margin-right: 5px;
+}
+.section-bottom>div:nth-of-type(1) ul li {
+	font-size: 12px;
+	line-height: 30px;
+	color: #999;
+}
+.section-bottom>div:nth-of-type(2) ul li {
+	margin-bottom: 14px;
+}
+.section-bottom>div:nth-of-type(2) ul li span:nth-of-type(1) {
+	display: inline-block;
+	width: 92px;
+	text-align: right;
+	font-size: 12px;
+	color: #000;
+}
+.section-bottom>div:nth-of-type(2) img {
+	width: 16px;
+	height: 16px;
+	margin-right: 3px;
+}
+.section-bottom>div:nth-of-type(2) span {
+	margin-right: 10px;
+	color: #989898;
+}
+

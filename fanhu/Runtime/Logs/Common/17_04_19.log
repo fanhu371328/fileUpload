@@ -1,0 +1,6 @@
+[ 2017-04-19T10:00:11+08:00 ] ::1 /thinkphp/index.php/fanhu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000437s ]
+ERR: 无法加载模块:Fanhu
+
