@@ -31,15 +31,10 @@
 						</p>
 						
 						<p class="addMore">
-							<img src="/fileUpload/Public/img/PDF.png" />继续添加
+							<img src="/fileUpload/Public/img/tianjiawenjian.png" />继续添加
 						</p>
 						<input type="file" name="upload[]" class="add-more" />
 					</div>
-					
-					
-					
-					
-					
 					<input type="button" name="submit" id="submit" value="开始上传" />
 				</div>
 			</form>
